@@ -1,0 +1,420 @@
+
+    @font-face {
+        font-family: carra;
+        src: url(MacondoSwashCaps-Regular.ttf);
+    }
+    body{
+        background-color: rgb(235, 230, 230);
+        font-family:'Times New Roman', Times, serif;
+    }
+    .car{
+        font-family: carra;
+        font-weight: lighter;
+        font-size: xx-large;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  margin-top: -30%;
+  margin-right:13%;
+ 
+}
+.corner{
+ 
+    height: 500px;
+    width: 450px;
+    background-color: #524f4f;
+    top: 15%;
+    left: 75%;
+    margin-top: -100px;
+    border-radius: 40px;
+    rotate: 50deg;
+    position: relative;
+    
+}
+
+
+.hero{
+    padding-left:10%;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 80px;
+   
+}
+
+
+nav {
+  display: flex;
+  padding-right:30%;
+  padding-bottom: 80px;
+  margin-left: 20%;
+   gap: 4%;
+
+  
+}
+
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+.container{
+   margin:5% 10%;
+   background-color: white;
+   overflow: hidden;
+
+
+   
+}
+.heading{
+    font-size: larger;
+}
+span1 {
+    border:2px dashed grey;
+}
+span{
+    padding-left: 20px;
+    font-weight: bold;
+}
+span2{
+    margin-left: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(192, 188, 188);
+    cursor: pointer;
+}
+#one {
+   font-family: "chango";
+   color:rgb(179, 149, 149)
+}
+
+#two {
+   font-family: "Newsreader";
+   color: gray;
+}
+#three{
+   font-family: "Comfortaa";
+   color: gray;
+}
+#four{
+   font-family: "Mitr";
+  color: gray;
+}
+#five{
+   font-family: "Libre Caslon Display";
+   color: gray;
+}
+header i{
+position: relative;
+left: 100%;
+color: white;
+bottom: 30px;
+font-size: larger;
+margin-right: 20px;
+}
+header i :last-child{
+margin-right: 0;
+}
+
+.start{
+    border-radius:40px;
+    background-color: rgb(85, 84, 84);
+    color: white;
+  font-size: large;
+  border: none;
+  margin-top: 1%;
+  margin-left: 10%;
+  cursor: pointer;
+ padding: 2%;
+ width: 15%;
+}
+.number{
+  display: flex; 
+   margin-left:7%;
+  align-items: center; 
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+.item {
+padding-left: 20px;
+font-weight: bold;
+}
+.hero img{
+    float: right;
+   bottom:80px;
+   position: relative;
+   right: 10%;
+   width: 50%;
+
+} 
+
+.item p {
+  margin-top: 5px; 
+  font-size: 13px;
+  margin-left:20px ;
+  font-weight: lighter;
+}
+
+.item span {
+  font-size: 30px;
+  font-weight: bold;
+}
+#flink {
+  cursor: pointer;
+    color: black;
+   /* margin-left:0px; */
+}
+#flink a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+span i{
+  background-color:rgb(196, 193, 193);
+  padding: 1%;
+  border-radius: 10px;
+  
+}
+.text {
+padding-left: 90px;
+padding-top: 10px;
+margin-top: 30%;
+
+
+}
+.text span{
+  margin-right: 100px;
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+  font-size:150%;
+  font-weight: lighter;
+  /* margin: 0 2%; */
+}
+
+
+
+
+.pot {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+   max-width:90%; 
+  margin-bottom: 10px;
+  margin-left: 5%;
+
+}
+.pot P{
+  width: 5px;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+
+.pot-type {
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+margin-top: auto;
+
+}
+
+.pot-type img {
+  max-width: 80vh;
+}
+
+.discount {
+  
+   margin: 10px 0; 
+   display: inline-block;
+  display: flex;
+  margin-left: 20%;
+  
+}
+.discount-a{
+  color: rgb(241, 106, 106);
+  padding: 10px;
+
+height: 15px ;
+}
+.discount-b{
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 25%;
+}
+.second{
+  display: flex;
+    align-items: center;
+   padding:100px ;
+}
+.secont h1{
+  font-size:60px;
+
+}
+.secont{
+  margin-bottom:20%;
+  margin-left: 7%;
+}
+.end{
+  display: flex;
+  align-items: center;
+  margin-left: 1.5%;
+
+}
+.picture{
+  position: relative;
+  float: left;
+  padding: 20px;
+  margin-left: 60px;
+  margin-top:10%;
+  
+}
+.shop2{
+  border-radius:40px;
+  cursor: pointer;
+  width: 180px;
+height: 80px;
+font-size: large;
+  margin-top: 25%; 
+  border:1px solid;
+}
+.final{
+  padding-left:5% ;
+}
+.final p{
+  font-weight: lighter;
+}
+
+.style{
+  margin:50px;
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+  align-items: flex-start;
+}
+.text-c h1{
+  font-size:60px;
+}
+.text-c{
+  margin-right: 20px;
+  margin-top: 8%;
+
+}
+.style img{
+  position: relative;
+  margin-top: 100px;
+  padding: 10px;
+  float: right;
+  width: 35%;
+  margin-left: 7%;
+}
+.second img{
+position: relative;
+width: 35%;
+padding: 50px;
+float:left;
+ margin-bottom: 5%;
+   
+}
+   .shop{
+    border-radius:40px;
+  border:1px solid;
+  cursor: pointer;
+
+  margin-top: 25%; 
+margin-left:-37% ;
+width: 180px;
+height: 80px;
+font-size: large;
+   }
+
+.section-title {
+  text-align: center;
+  padding-top: 15%;
+  font-size: 140%;
+}
+.section-title h4{
+  font-weight:lighter;
+}
+.images {
+  padding-top: 50px;
+  margin: 80px;
+
+  margin-top:80px ;
+}
+.images i{
+margin-left: 1%;
+position: relative;
+right: -80%;
+
+}
+.images p{
+  margin-left: 6%;
+}
+.offer{
+  padding-left: 35%;
+  padding-top: 10%;
+  font-size: 140%;
+}
+.offer p{
+  padding-left: 10%;
+  font-weight: lighter;
+}
+.lists{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+  font-size: small;
+
+}
+.lists h3{
+  font-weight: lighter;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  margin: 90px;
+}
+svg{
+  padding-left: 0%;
+}
+.pic{
+  padding: 20px;
+  margin: 5%;
+}
+.pict{
+  width: 120%;
+  text-indent:5%;
+}
+.finalt{
+  margin-top: 35%;
+}
+.final i{
+  margin-left: 90%;
+  cursor: pointer;
+ font-size: 35px;
+}
+footer{
+  margin: 0 6.5%;
+  display: flex;
+  justify-content: space-between;
+}
+.last{
+margin-left: 30%;
+margin-top: 15%;
+font-size:140%;
+}
+.last h4{
+  padding-left: 10%;
+  font-weight: lighter;
+ 
+}
